@@ -1,0 +1,110 @@
+body {
+    margin: 130px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+p {
+    text-indent: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#titulo {
+    background-color: #b6b5b1;
+    color: black;
+    padding: 7px;
+    font-size: 30px;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Malgun Gothic";
+    font-weight: 700;
+}
+
+.simular-link {
+    color: #0000EE;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#div-distribuicao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-foto {
+    float: right;           
+    margin-left: 25px;    
+    margin-bottom: 15px;  
+    border: 1px solid #d3d3d3;
+    background-color: #f9f9f9;
+    padding: 15px;
+    display: block;         
+}
+
+#container-foto figcaption {
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    color: #333;
+    margin-top: 8px;       
+}
+
+h2 {
+    border-bottom: 1px solid #333; 
+    padding-bottom: 5px; 
+    font-family: sans-serif;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+a {
+    color: blue;
+}
+
+.bloco-lateral {
+    display: block;
+}
+
+.bloco-lateral img {
+    max-width: 250px;       
+    height: auto;
+    display: block;        
+}
+
+.bloco-lateral::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #dcdcf4;
+    color: blue;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Malgun Gothic";
+}
+
+.rodape-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px 40px;
+}
+
+.rodape-logo{
+    width: 75px;
+    height: auto;
+}
+
+rodape-texto{
+    font-size: 11px;
+    font-family: sans-serif;
+    margin: 0;
+}

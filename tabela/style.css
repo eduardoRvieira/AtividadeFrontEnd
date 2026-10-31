@@ -1,0 +1,22 @@
+/* Bordas das Zonas Laterais (Esquerda) */
+.zona-verde {
+    border-left: 4px solid #4CAF50;
+}
+.zona-vermelha {
+    border-left: 4px solid #F44336;
+}
+
+/* Coluna J (Jogos) - Escala de fundo baseado no número de partidas jogadas */
+.bg-azul-claro { background-color: #d1ecf1; }  /* 6 jogos */
+.bg-cinza-claro { background-color: #eaeaea; } /* 5 jogos */
+.bg-laranja-claro { background-color: #f8d7da; }/* 4 jogos (atrasado) */
+.bg-laranja-escuro { background-color: #f5b041; color: white !important; } /* 3 jogos */
+
+/* Coluna Apr (Aproveitamento) - Gradiente visual do verde ao vermelho */
+.bg-verde-alto { background-color: #a3e4d7; }   /* 65% a 75% */
+.bg-verde-medio { background-color: #d4efdf; }  /* 59% a 64% */
+.bg-verde-baixo { background-color: #e8f8f5; }  /* 51% a 58% */
+.bg-verde-minimo { background-color: #f9f9f9; } /* 40% a 50% */
+.bg-rosa { background-color: #f9ebeb; }         /* 20% a 39% */
+.bg-vermelho { background-color: #fcdbd9; }     /* 5% a 19% */
+.bg-vermelho-forte { background-color: #f5b7b1; }/* 0% */
